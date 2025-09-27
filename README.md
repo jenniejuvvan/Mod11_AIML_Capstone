@@ -1,6 +1,6 @@
 ### Supply Chain - Customer targeted Sales and Fraud Detection Analysis
 
-**Author**
+By Jennie Juvvanapudi
 
 #### Executive summary:
 This project focuses on building a Customer Sales Classification Model to improve customer segmentation and drive business growth. By leveraging transactional and customer-level data from a supply chain dataset, the project identifies distinct customer segments and develops predictive models to classify customer sales behavior. The outcomes will support strategic decision-making by enabling the company to better understand customer needs, enhance targeting strategies, improve responsiveness, and increase overall revenue.
@@ -23,7 +23,10 @@ Supporting sub-questions:
 * Which customer attributes most strongly influence sales behavior?
 * What are the most effective machine learning models for classifying customer sales patterns?
 * How do different feature engineering and preprocessing techniques affect classification performance?
-* 
+
+ I will be using Classification type ML models and Regression type ML models against the Neural Network models with the same dataset. This project aims to compare 9 popular machine learning classifiers and 7 regressors type machine learning models and measure their performance against neural network models to find out which machine learning model performs better. 
+
+This project aims to compare 9 popular machine learning classifiers and 7 regressors type machine learning models and measure their performance against neural network models to find out which machine learning model performs better. Since the dataset used is related to supply chain important parameters are identified and the machine learning models are trained with the dataset for detection of fraud transactions, late delivery of orders, sales revenue and quantity of products which customer orders.
 
 #### Data Sources
 What data will you use to answer you question?
@@ -35,9 +38,6 @@ The analysis uses the DataCo Supply Chain dataset, which includes detailed recor
 * Supply Chain Data: Order processing, delivery, and fulfillment details.
 This dataset provides a holistic view of customer interactions, enabling robust classification modeling.
 DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS - Mendeley Data
-
-I will be using Classification type ML models and Regression type ML models against the Neural Network models with the same dataset. This project aims to compare 9 popular machine learning classifiers and 7 regressors type machine learning models and measure their performance against neural network models to find out which machine learning model performs better. 
-This project aims to compare 9 popular machine learning classifiers and 7 regressors type machine learning models and measure their performance against neural network models to find out which machine learning model performs better. Since the dataset used is related to supply chain important parameters are identified and the machine learning models are trained with the dataset for detection of fraud transactions, late delivery of orders, sales revenue and quantity of products which customer orders. The machine learning classifiers used in this project are Logistic Regression,Linear Discriminant Analysis, Gaussian Naive Bayes, Support Vector Machines, k - Nearest Neighbors, Random Forest classification, Extra Trees classification, Extreme Gradient Boosting, Decision Tree classification for fraud detection and to predict late delivery on the basis accuracy, recall score and F1 score. The regression models used are Lasso, Ridge, Light Gradient boosting, Random Forest regression, Extreme Gradient Boosting regression, Decision Tree Regression, and Linear Regression to predict sales and quantity of the products required which are compared with mean absolute error (MAE) and root mean square error (RMSE).
 
 
 #### Methodology
@@ -80,6 +80,29 @@ What suggestions do you have for next steps?
 #### Outline of project
 
 
+Modeling Approach
+
+The project compares multiple machine learning and statistical models to identify the best-performing techniques:
+
+Classification Models (Fraud Detection, Late Delivery Prediction):
+Logistic Regression, Linear Discriminant Analysis, Gaussian Naive Bayes, Support Vector Machines, k-Nearest Neighbors, Random Forest, Extra Trees, Extreme Gradient Boosting, and Decision Trees.
+
+Evaluation Metrics: Accuracy, Recall, F1-Score.
+
+Regression Models (Sales & Quantity Prediction):
+Linear Regression, Ridge, Lasso, Decision Tree Regression, Random Forest Regression, Extreme Gradient Boosting Regression, and LightGBM Regression.
+
+Evaluation Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE).
+
+Neural Networks:
+Benchmarked against classifiers and regressors to evaluate performance improvements.
+
+Time Series Forecasting (Sales/Demand Trends):
+ARIMA (Auto-Regressive Integrated Moving Average) is applied to sales and order quantities to capture seasonal patterns and forecast future demand trends.
+
+Evaluation Metrics: AIC/BIC, RMSE, Forecast Accuracy.
+
+This project aims to compare the above popular machine learning classifiers and regressors type machine learning models and measure their performance against neural network models to find out which machine learning model performs better
 
 
 ##### Contact and Further Information
