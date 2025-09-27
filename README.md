@@ -1,4 +1,4 @@
-### Supply Chain - Customer targeted Sales and Fraud Detection Analysis
+### Supply Chain - Customer Targeted Sales Analysis
 
 By Jennie Juvvanapudi
 
@@ -45,31 +45,34 @@ What methods are you using to answer the question?
 
 Methodology
 The project follows a structured machine learning and statistical modeling pipeline:
-1. Data Preprocessing & Quality Checks
-o Handle missing values, duplicates, outliers, and incorrect data types.
-o Feature encoding (One-hot, Label, Target encoding).
-o Scaling (StandardScaler, MinMaxScaler).
-2. Exploratory Data Analysis (EDA)
-o Univariate, bivariate, and multivariate analysis to uncover trends.
-o Visualization of customer segments, purchase frequencies, and correlations.
-3. Feature Engineering & Selection
-o Creation of derived variables (e.g., purchase frequency, average order value).
-o Dimensionality reduction using PCA.
-o Recursive Feature Elimination (RFE) and correlation-based filtering.
-4. Model Development   Classification Models
-o Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, and K-Nearest Neighbors (KNN).
-o Hyperparameter tuning using GridSearchCV.
-5. Model Development   Time Series Forecasting
-o ARIMA (Auto-Regressive Integrated Moving Average) modeling for analyzing sales demand trends over time.
-o Seasonal and trend decomposition of time series to capture cyclical purchasing patterns.
-o Forecasting future customer demand and integrating results into classification insights.
-6. Model Evaluation
-o Metrics: Precision, Recall, F1-Score, and ROC-AUC for classification models.
-o AIC/BIC, RMSE, and forecast accuracy for ARIMA models.
-o Comparison of classification and forecasting models to determine the best-performing combination.
-7. Business Implications
-o Evaluation of misclassification (false positives/false negatives) in terms of customer targeting costs and revenue impact.
-o Use of ARIMA forecasts for proactive inventory management, marketing campaigns, and customer engagement strategies.
+
+The project follows a structured machine learning and statistical modeling pipeline:
+1.	Data Preprocessing & Quality Checks
+* Handle missing values, duplicates, outliers, and incorrect data types.
+* Feature encoding (One-hot, Label, Target encoding).
+* Scaling (StandardScaler, MinMaxScaler).
+2.	Exploratory Data Analysis (EDA)
+* Univariate, bivariate, and multivariate analysis to uncover trends.
+* Visualization of customer segments, purchase frequencies, and correlations.
+3.	Feature Engineering & Selection
+* Creation of derived variables (e.g., purchase frequency, average order value).
+* Dimensionality reduction using PCA.
+* Recursive Feature Elimination (RFE) and correlation-based filtering.
+4.	Model Development – Classification Models
+* Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, and K-Nearest Neighbors (KNN).
+* Hyperparameter tuning using GridSearchCV.
+5.	Model Development – Time Series Forecasting
+* ARIMA (Auto-Regressive Integrated Moving Average) modeling for analyzing sales demand trends over time.
+* Seasonal and trend decomposition of time series to capture cyclical purchasing patterns.
+* Forecasting future customer demand and integrating results into classification insights.
+6.	Model Evaluation
+* Metrics: Precision, Recall, F1-Score, and ROC-AUC for classification models.
+* AIC/BIC, RMSE, and forecast accuracy for ARIMA models.
+* 	Comparison of classification and forecasting models to determine the best-performing combination.
+7.	Business Implications
+* Evaluation of misclassification (false positives/false negatives) in terms of customer targeting costs and revenue impact.
+* Use of ARIMA forecasts for proactive inventory management, marketing campaigns, and customer engagement strategies.
+
 
 #### Results
 What did your research find?
